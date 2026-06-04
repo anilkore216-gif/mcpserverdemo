@@ -48,7 +48,7 @@ function handleJsonRpc(body) {
         serverInfo: { name: "smartbank", version: "1.0.0" }
       }
     };
-  }c
+  }
 
   if (method === "tools/list") {
     return { jsonrpc: "2.0", id, result: { tools: TOOLS } };
